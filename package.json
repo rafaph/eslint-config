@@ -1,0 +1,48 @@
+{
+  "name": "@rafph/eslint-config",
+  "version": "1.0.0",
+  "description": "Configuração do Eslint para meus projetos pessoais.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rafaph/eslint-config.git"
+  },
+  "keywords": [
+    "lint",
+    "eslint",
+    "code checker",
+    "code linter"
+  ],
+  "author": {
+    "name": "Raphael Castro",
+    "email": "rafaphcastro@gmail.com",
+    "url": "https://raphaelcastro.xyz"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaph/eslint-config/issues"
+  },
+  "homepage": "https://github.com/rafaph/eslint-config#readme",
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  },
+  "peerDependencies": {
+    "eslint": "^6.1.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-semistandard": "^14.0.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "babel-eslint": "^10.0.2"
+  }
+}

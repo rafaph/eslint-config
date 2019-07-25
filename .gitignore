@@ -1,0 +1,6 @@
+# files
+yarn.lock
+
+# folders
+.idea
+node_modules

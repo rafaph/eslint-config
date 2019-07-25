@@ -1,0 +1,13 @@
+{
+  "extends": "semistandard",
+  "rules": {
+    "space-before-function-paren": ["error", {
+      "anonymous": "never",
+      "named": "never"
+    }],
+    "indent": ["error", 2, {
+      "SwitchCase": 1
+    }]
+  },
+  "parser": "babel-eslint"
+}
